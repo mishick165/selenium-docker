@@ -1,5 +1,5 @@
-FROM openjdk:19-jdk-alpine3.14
-#FROM openjdk:11.0.14.1-jre-slim
+#FROM openjdk:19-jdk-alpine3.14
+FROM openjdk:11
 
 RUN apk add curl jq
 
